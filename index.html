@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pet website</title>
+    <!-- taiwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- font adlam-display-regular -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+  <style>
+   .sora-normal{
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+.adlam-display-regular {
+  font-family: "ADLaM Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  </style>
+ 
+</head>
+<body class=" flex flex-col sm:mx-4 md:mx-10 lg:mx-36 ml-4 items-center justify-between">
+   <header>
+   <nav>
+    <nav class="items-center">
+        <div class="navbar bg-rose-50 flex justify-between">
+           <div class="navbar-start flex items-center">
+                <img src="c1-assets/logo-header.png" alt="Logo">
+                <a class="btn btn-ghost text-xl hidden lg:inline font-normal text-2xl sora-normal">Browse<span class="text-yellow-400">4</span>Pets</a>
+            </div>
+       <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 font-normal text-xl sora-normal">
+                    <li><a>Find a pet</a></li>
+                    <li><a>Breeds</a></li>
+                    <li><a>Contact us</a></li>
+                </ul>
+            </div>
+       <div class="navbar-end flex items-center gap-3">
+               
+                <div class="dropdown lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h7" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Find a pet</a></li>
+                        <li><a>Breeds</a></li>
+                        <li><a>Contact us</a></li>
+                    </ul>
+                </div>
+      <button class="btn btn-ghost btn-circle hidden sm:flex">
+                    <div class="indicator">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                        </svg>
+                    </div>
+                </button>
+    
+                <!--Search Icon -->
+                <button class="btn btn-ghost btn-circle hidden sm:flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+    
+                <!--Logo Button -->
+                <button class="btn btn-outline btn-primary hidden sm:flex">Login</button>
+    
+                <!--Register Button -->
+                <button class="btn btn-warning hidden sm:flex">Register</button>
+            </div>
+        </div>
+    </nav>
+   </nav>
+   <!-- bannar section -->
+    <div class="mt-20">
+        <h1 class="font-normal text-6xl adlam-display-regular ">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+        <br>
+        <p class="font-normal text-xl sora-normal ">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+        <button class="btn btn-warning hidden sm:flex text-xl">Find a pet</button>
+    </div>
+    <img class="" src="c1-assets/cat-big.png" alt="">
+   </header> 
+<main>
+ 
+ 
+
+</main>
+   <footer></footer>
+</body>
+</html>
